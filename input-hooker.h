@@ -98,5 +98,5 @@ private:
 
     const std::thread::id myThread = std::this_thread::get_id();
 
-    static const char* InputHooker::dllName;
+    static const char* dllName;
 };
